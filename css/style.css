@@ -1,0 +1,42 @@
+html,body{
+    height: 100%;
+    background: yellowgreen;
+    color: white;
+}
+header{
+    display: block;
+
+    padding: 10px, 0px;
+    text-align: center;
+}
+main{
+    height: 100%;
+    background: #286af0;
+}
+section{
+    width: 79%;
+    float: left;
+    overflow: auto;
+    background: #286af0;
+    padding: 60px;
+    padding-top: 30px;
+    text-align: center;
+}
+aside{
+    float: right;
+    width: 19%;
+    border: 1px solid red;
+}
+footer{
+    position: relative;
+    margin-top: -50px;
+    height: 40px;
+    padding: 5px 0px;
+    clear: both;
+    background: black;
+    text-align: center;
+    color: white;
+}
+figure{
+    display: table; margin: 0 auto;
+}
